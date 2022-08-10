@@ -16,7 +16,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/v1")
-@CrossOrigin(origins = "https://pets-webapp-dot-db-grads-173c-group-22.nw.r.appspot.com")
+@CrossOrigin(origins = "http://localhost:3000","https://pets-webapp-dot-db-grads-173c-group-22.nw.r.appspot.com")
 
 
 public class TradeController {
