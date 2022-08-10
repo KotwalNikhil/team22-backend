@@ -26,6 +26,7 @@ INSERT INTO COUNTER_PARTY (counter_party_id, counter_party_name) VALUES (1, 'Kir
                                    (5, 'Rishikesh');
 
 
-INSERT INTO TRADE (trade_id,  security_id, counter_party_id, BOOK_ID, quantity, status, price, buy_sell, trade_date, settlement_date) VALUES
-                    (1,1,1,1,3, 'SETTLED', 270, 'sell', '2008-11-11', '2008-11-12'),
-                    (2,2,2,2,3, 'SETTLED', 270, 'buy', '2008-11-11', '2008-11-12');
+INSERT INTO TRADE (trade_id,actioned,  security_id, counter_party_id, BOOK_ID, quantity, status, price, buy_sell, trade_date, settlement_date) VALUES
+                    (1,0,1,1,1,3, 'SETTLED', 270, 'sell', '2008-11-11', '2008-11-12'),
+                    (2,0,2,2,2,3, 'SETTLED', 270, 'buy', '2008-11-11', '2008-11-12');
+
