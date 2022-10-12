@@ -1,1 +1,1 @@
-This is a spring boot rest API
+# STOP shitting in Linus pants
